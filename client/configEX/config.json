@@ -1,0 +1,49 @@
+{
+	"db": {
+		"username": "",
+		"password": "",
+		"host": "",
+		"port": "",
+		"name": "",
+		"uri": "mongodb://MLABPATH/classdb"
+	},
+	"sessionSecret": "superhardsecret",
+	"facebook": {
+		"clientID": "",
+		"clientSecret": "",
+		"callbackURL": "",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "",
+		"consumerSecret": "",
+		"token": "",
+		"tokenSecret": "",
+		"callbackURL": "",
+		"username": "",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twilio": {
+		"sid": "",
+		"token": "",
+	  "tokenSecret": "",
+	  "username": "",
+		"owner": ""
+	},
+	"redis": {
+		"host": "",
+		"port": 12345,
+		"password": ""
+	},
+	"watson": {
+		"url": "",
+		"username": "",
+		"password": "",
+		"classifier": ""
+	},
+	"testdb": {
+		"url": "http://localhost:5002/api/"
+	},
+	"port": 3000,
+	"token": "secret"
+}

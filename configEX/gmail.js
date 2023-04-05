@@ -1,0 +1,16 @@
+
+
+///////////////////////////////////////////////////////////////////////
+/////////////////// configure chaoticbot nodemailer////////////////////
+//////////////////////////////////////////////////////////////////////
+const nodemailer =        require('nodemailer');
+
+const transport = nodemailer.createTransport({
+  service: "Gmail",
+  auth: {
+    user: "yourcompany@gmail.com",
+    pass: "mypassword"
+  }
+})
+
+module.exports = transport;

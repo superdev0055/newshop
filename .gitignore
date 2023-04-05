@@ -1,0 +1,6 @@
+node_modules
+config
+setup
+public/bundle
+client/node_modules
+client/config
